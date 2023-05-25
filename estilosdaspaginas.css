@@ -1,0 +1,193 @@
+/**layout de todo site**/
+
+*{margin: 10; padding: 10;}
+
+body{
+background-color: black;
+color:white;
+font-family: times;
+}
+
+.solução{
+	font-size: 20px;
+  font-family:"optima", Arial ;
+  text-align: center;
+}
+
+#logo1{
+	width: 200px;
+	height:200px;
+}
+
+.menu{
+height: 30px;
+border:1px solid #c0c0c0;
+list-style:none;
+float:right;
+margin: 55px;
+padding: 0px;
+width: 900px;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+
+.menu li a{color:grey; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#fff;
+display:none;
+}
+
+.menu li:houver ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:150px;
+}
+
+li{
+	font-size: 20px
+}
+
+h2{
+  font-family: helvetica,arial,verdana;
+  color:grey;
+  margin: 20px;
+}
+
+
+/**pagina da solução**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="name"],
+input[type="tel"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.links-container {
+  margin-top: 20px;
+}
+
+.links-container a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.links-container a:hover {
+  text-decoration: underline;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/**projeto**/
+
+.projetoJPG{
+          display: block;
+          margin: 0 auto;
+          width: 800px;
+          height: 400px;
+          margin-top: 50px;
+}
+
+/**contato**/
+
+.suporte{
+  text-align: center;
+  font-size: 20px;
+  font-family: verdana;
+  /**efeito**/
+ color:#fff;
+ text-shadow:0px 0px 5px #fff;
+}
+
+/**Sobre**/
+
+#inc{
+  width:35px;
+  height:35px;
+  vertical-align: middle;
+}
+
+.redes{
+  color:#fff;
+ text-shadow:0px 0px 5px #fff;
+}
+/*para tirar o azul do link*/
+.instagramlink{
+  color:black;
+}
+
+.instagram{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+}
+
+.youtube{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+}
+
+/*LOGIN*/
+.container {
+  margin-top: -63px;
+}
