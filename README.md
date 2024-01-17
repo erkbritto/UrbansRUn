@@ -1,2 +1,1 @@
-site criado no 1º semestre da faculdade que teve como objetivo mostrar opções sustentáveis de mobilidade urbana e dar ênfase a evolução tecnológica sendo usada inteligência artificial nos trânsitos 
-Foi usado na construção do projeto: HTML5,CSS 3, JAVASCRIPT, PHP, BOOTSTRAP, Noções de UX.
+O site foi desenvolvido durante o primeiro semestre da faculdade com o objetivo de apresentar opções sustentáveis de mobilidade urbana e destacar a evolução tecnológica, utilizando inteligência artificial no contexto do trânsito. Na construção do projeto, foram utilizadas as seguintes tecnologias: HTML5, CSS3, JavaScript, PHP, Bootstrap e noções de UX.
